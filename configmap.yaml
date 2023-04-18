@@ -1,0 +1,14 @@
+# define the configuration for mongo-express
+apiVersion: v1
+
+
+kind: ConfigMap
+#metadat
+
+metadata:
+  name: mongodb-configmap
+
+
+  #data
+data:
+  database_url: mongodb-service
